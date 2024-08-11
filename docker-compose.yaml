@@ -12,4 +12,5 @@ services:
     image: my-node-app
     ports:
       - 13000:3000
-volumes: postgres-db
+volumes:
+  postgres-db:
